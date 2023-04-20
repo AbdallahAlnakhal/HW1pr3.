@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="630.0" prefWidth="845.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.XchangeFXMLController">
+   <children>
+      <Button layoutX="366.0" layoutY="422.0" mnemonicParsing="false" onAction="#btnConvert" prefHeight="43.0" prefWidth="103.0" style="-fx-background-color: #191e4d;" text="Convert" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Button>
+      <TextField layoutX="205.0" layoutY="315.0" prefHeight="34.0" prefWidth="149.0" />
+      <Label layoutX="246.0" layoutY="269.0" prefHeight="17.0" prefWidth="103.0" text="USD">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="489.0" layoutY="318.0" prefHeight="34.0" prefWidth="149.0" />
+      <Button layoutX="716.0" layoutY="107.0" mnemonicParsing="false" onAction="#btnLogOut" prefHeight="34.0" prefWidth="92.0" style="-fx-background-color: #d7801e;" text="Log out" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="78.0" layoutY="115.0" prefHeight="27.0" prefWidth="254.0" text="Currency Conversion System">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="557.0" layoutY="269.0" prefHeight="17.0" prefWidth="103.0" text="NIS">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="418.0" layoutY="322.0" prefHeight="27.0" prefWidth="56.0" text="TO">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
